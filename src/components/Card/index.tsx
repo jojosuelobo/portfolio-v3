@@ -14,17 +14,17 @@ export const Card = ({ projetos, ...props }: CardProps) => {
     const t = useTranslations('Card');
     return (
         <div {...props} className="w-full flex flex-col">
-            <div className="rounded-xl overflow-hidden flex items-center justify-center w-full h-[200px] bg-[#f0f6ff] dark:bg-gray-dark-100">
+            {/* <div className="rounded-xl overflow-hidden flex items-center justify-center w-full h-[200px] bg-[#f0f6ff] dark:bg-gray-dark-100">
 
                 <Image
                     className="object-cover w-full h-full"
-                    src={`https://raw.githubusercontent.com/victorparanhosdev/${projetos?.name}/${projetos?.default_branch}/layout.png`}
+                    src={`https://raw.githubusercontent.com/jojosuelobo/${projetos?.name}/${projetos?.default_branch}/layout.png`}
                     width={400}
                     height={400}
                     priority
                     alt={projetos?.name || 'Foto do Projeto'}
                 />
-            </div>
+            </div> */}
 
             <h1 className="mt-10 dark:text-white text-xl font-medium text-blue-light-400">{projetos?.name}</h1>
             <p className="mt-8 sm:text-base overflow-hidden text-ellipsis sm:line-clamp-4 md:min-h-24">{projetos?.description}</p>

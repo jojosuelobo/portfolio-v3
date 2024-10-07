@@ -16,7 +16,7 @@ export const Projects = () => {
     useEffect(() => {
         const fetchProjects = async () => {
             try {
-                const response = await fetch('https://api.github.com/users/victorparanhosdev/repos?sort=created_at');
+                const response = await fetch('https://api.github.com/users/jojosuelobo/repos');
                 if (!response.ok) {
                     throw new Error('Erro ao buscar os dados');
                 }
@@ -47,7 +47,7 @@ export const Projects = () => {
                     <Card projetos={repo} data-aos="flip-left" key={repo.id} />
                 ))}
                 </div>
-                <Link href="/projetos" className="transition mt-6 ml-auto py-6 px-8 text-lg sm:text-xl font-bold dark:text-gray-dark-300 dark:hover:text-gray-dark-400 cursor-pointer flex gap-3 items-center hover:text-blue-light-200 text-blue-light-100">
+                <Link target='_blank' href="https://github.com/jojosuelobo?tab=repositories" className="transition mt-6 ml-auto py-6 px-8 text-lg sm:text-xl font-bold dark:text-gray-dark-300 dark:hover:text-gray-dark-400 cursor-pointer flex gap-3 items-center hover:text-blue-light-200 text-blue-light-100">
                     <MdOutlineDoubleArrow className="animate-arrowRight overflow-hidden text-current text-xl lg:text-base" />{t("link")}
                 </Link>
             </section>

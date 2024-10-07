@@ -30,7 +30,7 @@ export default function AllProjetos() {
     const fetchProjects = async (query: string = '', page: number = 1) => {
         setLoading(true);
         try {
-            const user = 'victorparanhosdev';
+            const user = 'jojosuelobo';
             const encodedQuery = encodeURIComponent(`${query} user:${user}`);
             const token = process.env.NEXT_PUBLIC_GITHUB_TOKEN || '';
             const response = await fetch(`https://api.github.com/search/repositories?q=${encodedQuery}&sort=updated_at&per_page=${perPage}&page=${page}`, {

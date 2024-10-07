@@ -35,7 +35,6 @@ export default function HomeApp() {
         <Skills/>
         <Projects/>
       </main>
-      <Footer />
       <ScrollToTop />
     </>
 
