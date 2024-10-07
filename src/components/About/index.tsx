@@ -23,7 +23,7 @@ export const About = () => {
                 </p>
             
 
-                <a href="/curriculo.pdf" download="VictorParanhos(Curriculo).pdf" ><Button iconLeft={DownloadSimple} state="primary" className="mt-12">{t("button")}</Button></a>
+                <a href="/curriculo.pdf" download="JosueLobo(Curriculo).pdf" ><Button iconLeft={DownloadSimple} state="primary" className="mt-12">{t("button")}</Button></a>
 
             </section>
 

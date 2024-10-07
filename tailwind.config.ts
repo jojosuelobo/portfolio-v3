@@ -41,7 +41,6 @@ const config: Config = {
         },
         gray:{
           dark: {
-  
             '500': '#121212', 
             '450': '#d1d5db', 
             '400': '#ffffffde',
@@ -53,8 +52,15 @@ const config: Config = {
             '100': '#ffffffe6', 
             '200': '#20131321', 
           }
-        }
-
+        },
+        red:{
+          light: {
+            '100': '#ff3131',
+            '500': '#ff3131',
+            '200': '#ff3131', 
+            '400': '#ff3131', 
+          }
+        },
       },
       boxShadow: {
         'brand-shadow': '0px 0px 150px -60px'
