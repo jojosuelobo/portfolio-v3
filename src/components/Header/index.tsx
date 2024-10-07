@@ -81,7 +81,7 @@ export const Header = () => {
 
                                         <PopoverContent >
                                             <div className="px-1 py-2 grid gap-2">
-                                                <Rounting.Link href="/projetos" className="text-base block dark:hover:text-gray-dark-400 hover:text-blue-light-200">{t('allprojects')}</Rounting.Link>
+                                                <Rounting.Link target="_blank" href="https://github.com/jojosuelobo?tab=repositories" className="text-base block dark:hover:text-gray-dark-400 hover:text-blue-light-200">{t('allprojects')}</Rounting.Link>
                                                 <Link
                                                     className={`text-base  transition-colors cursor-pointer ${activeSection === item.link ? 'dark:text-gray-dark-400 text-blue-light-200' : 'dark:hover:text-gray-dark-400 hover:text-blue-light-200'}`}
                                                     to={item.link}
