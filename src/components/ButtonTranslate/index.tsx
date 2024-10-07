@@ -4,10 +4,6 @@ import { useRouter, routing, Locale } from "@/i18n/routing";
 import { useParams } from 'next/navigation';
 import { Translate } from "@phosphor-icons/react/dist/ssr";
 
-
-
-
-
 export function ButtonTranslate() {
     const router = useRouter();
     const [isPending, startTransition] = useTransition();
@@ -39,7 +35,7 @@ export function ButtonTranslate() {
                 </Button>
             </PopoverTrigger>
             <PopoverContent>
-                <div className="px-1 py-2 grid gap-1.5 grid-cols-3">
+                <div className="px-1 py-2 grid gap-1.5 grid-cols-2">
                     {routing.locales.map(renderFlag)}
                 </div>
             </PopoverContent>
