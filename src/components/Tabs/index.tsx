@@ -17,7 +17,7 @@ export const TabsNav = ({ ...props }: Tabs.TabsProps) => {
       className={`grid md:flex gap-16 sm:gap-16 md:gap-20 min-w-52 ${props.className}`}
     >
       <Tabs.List className="md:block flex">
-        <TabItem isSelected={currentTab === 'Software Mind'} title="SoftwareMind" value="Software Mind" />
+        <TabItem isSelected={currentTab === 'Software Mind'} title="Software Mind" value="Software Mind" />
         <TabItem isSelected={currentTab === 'Octuspay'} title="Octuspay" value="Octuspay" />
         <TabItem isSelected={currentTab === 'Etaure'} title="Etaure" value="Etaure" />
         <TabItem isSelected={currentTab === 'Conexos'} title="Conexos" value="Conexos" />
