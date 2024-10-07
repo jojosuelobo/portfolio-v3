@@ -126,11 +126,11 @@ export const Header = () => {
 
                         <ButtonTranslate />
 
-                        <SwitchTheme
+                        {/* <SwitchTheme
                             checked={darkOrLight}
                             onCheckedChange={setDarkOrLight}
                             onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
-                        />
+                        /> */}
                     </div>
                 </menu>
             </nav>

@@ -36,7 +36,7 @@ export default async function RootLayout({
       <body className={` ${Sofia.className} bg-white text-blue-light-100 dark:bg-gray-dark-500 dark:text-gray-dark-300`}>
         <ThemeProvider
           attribute="class"
-          defaultTheme="dark"
+          defaultTheme="light"
           enableSystem
         >
            <NextIntlClientProvider messages={messages}>
