@@ -10,8 +10,8 @@ import { routing } from "@/i18n/routing";
 const Sofia = Sofia_Sans({ subsets: ['latin'], weight: ['1', '100', '1000', '200', '300', '400', '500', '600', '700', '800', '900'] })
 
 export const metadata: Metadata = {
-  title: "Portfolio 2.0",
-  description: "Portfolio mais atualizado 07/2024",
+  title: "Portfolio - Josué Lobo",
+  description: "Versão 3.0",
 };
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({locale}));
