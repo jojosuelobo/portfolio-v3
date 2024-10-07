@@ -1,56 +1,80 @@
 {
   "HomePage": {
-    "h1": "Hello, I'm",
-    "p": "FullStack Developer",
-    "p2": "Graduated in Systems Analysis and Development"
+    "h1": "Hello, I am",
+    "p": "QA Engineer",
+    "p2": "Computer Science Graduate",
+    "p3": "Web Developer",
+    "p4": "Test Analyst"
   },
   "Header": {
     "home": "Home",
     "about": "About Me",
-    "experience": "Experience",
+    "experience": "Experiences",
     "skills": "Skills",
     "projects": "Projects",
     "allprojects": "All Projects"
   },
+  
   "About": {
     "h1": "About Me",
     "p": "I am",
-    "p2": "a graduate in Systems Analysis and Development from UNINTER, with a passion for technology and innovation. I have",
-    "p3": "solid knowledge in front-end and back-end development",
-    "p4": "working with JavaScript, React.js, Next.js, TypeScript, Node.js, Python, Java, SQL, HTML and CSS, acquired through courses and continuous studies. I'm currently",
-    "p5": "a Jr. Developer",
-    "p6": "at Stefanini, and I have",
-    "p7": "10 years of experience",
-    "p8": "as an IT technician at Dires, as well as an internship in technical support at Vtrina. I am always looking for new challenges and learning opportunities, and I enjoy collaborating on projects that have a real impact.",
-    "p9": "Want to chat? Feel free to get in touch:",
+    "p2": "a Computer Science graduate, passionate about technology, specialized in software quality and test automation. I hold",
+    "p3": "certifications like CTFL (Certified Tester Foundation Level) from BSTQB",
+    "p4": "and bring solid experience in manual and automated testing, as well as in web development. Currently, I am",
+    "p5": "a QA Automation Engineer",
+    "p6": "at Software Mind, with",
+    "p7": "3 years of experience",
+    "p8": "in Software Quality, where I have the opportunity to apply my knowledge in automated testing and ensure the quality of the final product.",
+    "p9": "Want to have a chat? Feel free to get in touch:",
     "button": "Download Resume"
   },
   "Experience": {
-    "h1": "Experience",
-    "stefanini": "Junior Developer",
-    "stefaniniData": "June 2024 - Present",
-    "stefaniniLocal": "Hybrid",
-    "stefaniniLi": "Responsible for developing the new State System for Environmental Information and Water Resources (SEIA).",
-    "stefaniniLi2": "Implementation of new features and bug fixes.",
-    "stefaniniLi3": "Teamwork, contributing ideas and improvements to the system.",
-    "vtrina": "Technical Support Intern",
-    "vtrinaData": "January 2024 - June 2024",
-    "vtrinaLocal": "Home Office",
-    "vtrinaLi": "Identify and report  technical problems seeking solutions.",
-    "vtrinaLi2": "Assist customers in resolving issues.",
-    "vtrinaLi3": "Provide technical support to resolve customer issues.",
-    "dires": "IT Technician",
-    "diresData": "May 2014 - May 2024",
-    "diresLocal": "On-site",
-    "diresLi": "Responsible for supporting and maintaining softwares, always keeping them up to date.",
-    "diresLi2": "Installation and repair of softwares/programs.",
-    "diresLi3": "Consolidate data information from municipalities in the region for the Ministry of Health.",
-    "diresLi4": "Maintenance of computers and network.",
-    "diresLi5": "Support to employees."
+    "h1": "Experiences",
+    
+    "SoftwareMind": "Software Mind",
+    "SoftwareMindTitle": "QA Automation Engineer",
+    "SoftwareMindData": "June 2024 - Present",
+    "SoftwareMindLocal": "Remote",
+    "SoftwareMindText": "",
+    "SoftwareMindLi": "",
+    "SoftwareMindLi2": "",
+    "SoftwareMindLi3": "",
+    
+    "Octuspay": "Octuspay",
+    "OctuspayTitle": "Quality Analyst",
+    "OctuspayData": "October 2023 - June 2024",
+    "OctuspayLocal": "Hybrid",
+    "OctuspayText": "I played the role of QA in a startup, responsible for documenting the main system routes and ensuring the delivery of a high-quality platform to users through functional and non-functional tests. Additionally, I contributed to the creation of automated and unit tests for the application.",
+    "OctuspayLi": "Development of scripted test routines with result tracking",
+    "OctuspayLi2": "Development of automated tests with Cypress",
+    "OctuspayLi3": "Monitoring the development of internal applications and developing specific tests per functionality",
+    "OctuspayLi4": "Development of tests for Front-end and Back-end (API with Postman)",
+    "OctuspayLi5": "Development of unit tests in Jest",
+    
+    "Etaure": "Etaure",
+    "EtaureTitle": "Quality Analyst",
+    "EtaureData": "April 2023 - October 2024",
+    "EtaureLocal": "Hybrid",
+    "EtaureText": "In this environment, I enhanced my skills in automated testing using Cypress and Selenium, while developing and expanding prior knowledge. I collaborated with the team to identify and implement continuous improvement strategies, benefiting from the learning acquired during this experience.",
+    "EtaureLi": "Documentation, planning, and QA team assistance",
+    "EtaureLi2": "Process flow and requirement analysis",
+    "EtaureLi3": "Creation of automated tests in Cypress",
+    "EtaureLi4": "Automated testing pipeline",
+    
+    "Conexos": "Conexos | NTT DATA",
+    "ConexosTitle": "Quality Analyst",
+    "ConexosData": "September 2022 - February 2024",
+    "ConexosLocal": "Hybrid",
+    "ConexosText": "I gained knowledge in software testing and business operations at a technology company. As a Quality Analyst (QA), responsibilities included planning and developing test cases, creating test scenarios, documenting tests and the platform, executing functional and non-functional tests, requirement analysis, writing bug reports, and automating test cases using the Ghost Inspector tool.",
+    "ConexosLi": "Planning and executing daily activities according to the deadlines set by the team, collaborating with smooth operations and quality results.",
+    "ConexosLi2": "Test Planning, Test Scenarios, Test Cases.",
+    "ConexosLi3": "System routines and bug documentation.",
+    "ConexosLi4": "Black box testing",
+    "ConexosLi5": "Web test automation with Ghost Inspector and Selenium."
   },
   "Skills": {
     "h1": "Skills",
-    "h2": "Here you will find my main skills where I have the most knowledge and experience. However, I am always seeking new learning opportunities, continuously updating myself and exploring new technologies."
+    "h2": "Here you will find my main skills in which I have the most knowledge and experience. However, I am constantly seeking new learning, updating myself, and exploring new technologies."
   },
   "Projects": {
     "h1": "Projects",
@@ -67,6 +91,6 @@
     "search": "Search by name:",
     "page1": "Page",
     "page2": "of",
-    "notfound": "No repositories found."
+    "notfound": "No repository found."
   }
 }
