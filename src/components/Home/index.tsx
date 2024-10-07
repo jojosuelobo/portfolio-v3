@@ -23,11 +23,11 @@ export const Home = () => {
                     </div>
                     <div className="-mt-16 md:mt-0 relative z-10 items-center flex w-full flex-col md:justify-items-startc text-center md:text-start md:place-items-baseline">
                         <h1 data-aos="fade-left" className="text-2xl font-medium ">{t('h1')}</h1>
-                        <p data-aos="fade-right" className="text-blue-light-400 dark:text-gray-dark-400 text-4xl md:text-6xl mb-1 font-bold">Victor Paranhos</p>
+                        <p data-aos="fade-right" className="text-blue-light-400 dark:text-gray-dark-400 text-4xl md:text-6xl mb-1 font-bold">Josué Lobo</p>
                         <div className="text-lg min-h-14 w-full mb-1 max-w-[415px]">
 
                             <Typewriter data-aos="fade-left"
-                                words={[t('p'), t('p2')]}
+                                words={[t('p'), t('p2'), t('p3'), t('p4')]}
                                 loop={false}
                                 cursor={true}
                                 cursorStyle='|'
@@ -38,11 +38,10 @@ export const Home = () => {
 
                         </div>
                         <ul data-aos="fade-right" className="w-full justify-center md:justify-start flex items-center gap-5 dark:text-blue-dark-100">
-                            <li><a target="_blank" href="https://api.whatsapp.com/send?phone=5575991258651&text=Olá%2C%20gostaria%20de%20mais%20informações%20sobre%20seus%20serviços."><WhatsappLogo className="dark:text-blue-dark-100 dark:hover:opacity-100 dark:opacity-80 text-blue-light-200 hover:opacity-80  hover:scale-110 transition " size={28} /></a></li>
-                            <li><a target="_blank" href="https://www.linkedin.com/in/victorparanhos94/"><LinkedinLogo className="dark:text-blue-dark-100 dark:hover:opacity-100 dark:opacity-80 text-blue-light-200 hover:opacity-80  hover:scale-110 transition " size={28} /></a></li>
-                            <li><a target="_blank" href="https://github.com/victorparanhosdev"><GithubLogo className="dark:text-blue-dark-100 dark:hover:opacity-100 dark:opacity-80 text-blue-light-200 hover:opacity-80  hover:scale-110 transition " size={28} /></a></li>
-                            <li><a target="_blank" href="https://www.instagram.com/victorparanhos_94/"><InstagramLogo className="dark:text-blue-dark-100 dark:hover:opacity-100 dark:opacity-80 text-blue-light-200 hover:opacity-80  hover:scale-110 transition " size={28} /></a></li>
-                            <li><a target="_blank" href="https://www.facebook.com/VictorParanhosCosta/"><FacebookLogo className="dark:text-blue-dark-100 dark:hover:opacity-100 dark:opacity-80 text-blue-light-200 hover:opacity-80  hover:scale-110 transition " size={28} /></a></li>
+                            <li><a target="_blank" href="https://wa.me/27988486353"><WhatsappLogo className="dark:text-blue-dark-100 dark:hover:opacity-100 dark:opacity-80 text-blue-light-200 hover:opacity-80  hover:scale-110 transition " size={28} /></a></li>
+                            <li><a target="_blank" href="https://www.linkedin.com/in/jojosuelobo/"><LinkedinLogo className="dark:text-blue-dark-100 dark:hover:opacity-100 dark:opacity-80 text-blue-light-200 hover:opacity-80  hover:scale-110 transition " size={28} /></a></li>
+                            <li><a target="_blank" href="https://github.com/jojosuelobo"><GithubLogo className="dark:text-blue-dark-100 dark:hover:opacity-100 dark:opacity-80 text-blue-light-200 hover:opacity-80  hover:scale-110 transition " size={28} /></a></li>
+                            <li><a target="_blank" href="https://www.instagram.com/jojosuelobo/"><InstagramLogo className="dark:text-blue-dark-100 dark:hover:opacity-100 dark:opacity-80 text-blue-light-200 hover:opacity-80  hover:scale-110 transition " size={28} /></a></li>
                         </ul>
                     </div>
                 </div>

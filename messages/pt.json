@@ -1,8 +1,10 @@
 {
   "HomePage": {
     "h1": "Olá, eu sou",
-    "p": "Desenvolvedor FullStack",
-    "p2": "Graduado em Ánalise e Desenvolvimento de Sistemas"
+    "p": "Analista de Qualidade",
+    "p2": "Graduado em Ciência da Computação",
+    "p3": "Desenvolvedor Web",
+    "p4": "Analista de Testes"
   },
   "Header": {
     "home": "Início",
@@ -16,13 +18,13 @@
   "About": {
     "h1": "Sobre mim",
     "p": "Sou",
-    "p2": "formado em Análise e Desenvolvimento de Sistemas pela UNINTER, com uma paixão por tecnologia e inovação. Tenho",
-    "p3": "conhecimento sólido em desenvolvimento front-end e back-end",
-    "p4": "trabalhando com JavaScript, React.js, Next.js, TypeScript, Node.js, Python, Java, SQL, HTML e CSS, adquiridos por meio de cursos e estudos contínuos. Atualmente, sou",
-    "p5": "Desenvolvedor Jr.",
-    "p6": "na Stefanini, e conto com",
-    "p7": "10 anos de experiência",
-    "p8": "como técnico de informática na Dires, além de um estágio em suporte técnico na Vtrina. Estou sempre em busca de novos desafios e aprendizado, e gosto de colaborar em projetos que trazem impacto real.",
+    "p2": "formado em Ciência da Computação, apaixonado por tecnologia, especializado em qualidade de software e automação de testes. Possuo",
+    "p3": "certificações como CTFL (Certified Tester Foundation Level) pela BSTQB",
+    "p4": " trago consigo uma sólida experiência em testes manuais e automatizados, bem como em desenvolvimento web. Atualmente, sou",
+    "p5": "QA Automation Engineer",
+    "p6": "na Software Mind, com",
+    "p7": "3 anos de experiência",
+    "p8": "na área de Qualidade de Software, onde tenho a oportunidade de aplicar meus conhecimentos em testes automatizados e garantir a qualidade do produto final.",
     "p9": "Quer bater um papo? Fique à vontade para entrar em contato:",
     "button": "Baixar currículo"
   },
