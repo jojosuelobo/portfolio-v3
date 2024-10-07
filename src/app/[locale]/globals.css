@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --var-color: 267;
+
+}
+
+::-webkit-scrollbar {
+  background: transparent;
+  width: 0.4rem;
+  height: 0.4rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #41bbff;
+  border-radius: 2rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  opacity: 0.8;
+}
+
+
+
+.container-personalizado {
+  width: min(100%, 1218px);
+  padding-inline: 1rem;
+  margin: auto;
+
+}
