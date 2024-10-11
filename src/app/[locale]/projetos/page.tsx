@@ -79,9 +79,9 @@ export default function AllProjetos() {
 
 
     return (
-        <main className="bg-white text-blue-light-100 dark:bg-gray-dark-500 dark:text-gray-dark-300 min-h-screen">
+        <main className="bg-white text-red-light-100 dark:bg-gray-dark-500 dark:text-gray-dark-300 min-h-screen">
             <section className="py-16 container-personalizado">
-                <h1 className="text-center text-3xl mb-8 text-blue-light-400 dark:text-gray-dark-400 font-extrabold">
+                <h1 className="text-center text-3xl mb-8 text-red-light-400 dark:text-gray-dark-400 font-extrabold">
                     {t("h1")}
                 </h1>
 
@@ -89,7 +89,7 @@ export default function AllProjetos() {
                     <Link
                         scroll={false}
                         href="/"
-                        className="p-4 flex items-center gap-3 text-blue-light-200 dark:text-gray-dark-400 opacity-80 hover:opacity-100"
+                        className="p-4 flex items-center gap-3 text-red-light-200 dark:text-gray-dark-400 opacity-80 hover:opacity-100"
                     >
                         <FaArrowLeft />{t("back")}
                     </Link>
@@ -102,14 +102,14 @@ export default function AllProjetos() {
                             id="search"
                             name="search"
                             onChange={debouncedFetchProjects}
-                            className="pl-4 py-2.5 pr-12 w-full rounded-lg focus:outline-none border dark:border-gray-dark-300 dark:focus:border-blue-dark-100 transition-all hover:bg-[#f0f6ff38] duration-500 dark:focus:ring-1 dark:focus:ring-offset-blue-dark-100 dark:text-gray-dark-400 dark:hover:bg-black/15 border-blue-light-100 focus:ring-1 focus:ring-[#009fff4f] text-blue-light-400"
+                            className="pl-4 py-2.5 pr-12 w-full rounded-lg focus:outline-none border dark:border-gray-dark-300 dark:focus:border-red-dark-100 transition-all hover:bg-[#f0f6ff38] duration-500 dark:focus:ring-1 dark:focus:ring-offset-red-dark-100 dark:text-gray-dark-400 dark:hover:bg-black/15 border-red-light-100 focus:ring-1 focus:ring-[#009fff4f] text-red-light-400"
                         />
-                        <button type="submit" className="absolute top-[50%] -translate-y-[50%] right-[15px] z-[2] cursor-pointer text-blue-light-200 dark:text-gray-dark-400">
+                        <button type="submit" className="absolute top-[50%] -translate-y-[50%] right-[15px] z-[2] cursor-pointer text-red-light-200 dark:text-gray-dark-400">
                             <MagnifyingGlass size={24} />
                         </button>
                     </form>
                 </div>
-            {loading ? <SkeletonTotalPages />  : (dataRepos && dataRepos.items.length > 0) && <span className="flex justify-end mb-4 text-blue-light-400 dark:text-gray-dark-400">
+            {loading ? <SkeletonTotalPages />  : (dataRepos && dataRepos.items.length > 0) && <span className="flex justify-end mb-4 text-red-light-400 dark:text-gray-dark-400">
                 {t("page1")} {currentPage} {t("page2")} {TotalPages}
                 </span>}
                 <div className="grid grid-cols-allprojects gap-4">
@@ -120,7 +120,7 @@ export default function AllProjetos() {
                             <CardAllProjects key={repo.id} projects={repo} />
                         ))
                     ) : (
-                        <div className="flex flex-wrap justify-center items-center gap-3 text-blue-light-200 dark:text-gray-dark-300">
+                        <div className="flex flex-wrap justify-center items-center gap-3 text-red-light-200 dark:text-gray-dark-300">
                             <p className="text-center text-base sm:text-lg md:text-xl align-baseline">
                                 {t("notfound")}
                             </p>
@@ -131,7 +131,7 @@ export default function AllProjetos() {
                 {(dataRepos && dataRepos?.items.length > 0) && (TotalPages > 1) &&
                     <div className='mt-8 flex justify-center'>
                         <Pagination classNames={{
-                            cursor: 'bg-blue-light-200  dark:bg-blue-dark-100 dark:text-gray-dark-500',                            
+                            cursor: 'bg-red-light-200  dark:bg-red-dark-100 dark:text-gray-dark-500',                            
                         }} showControls size="lg" showShadow page={currentPage} initialPage={1} radius='md' total={TotalPages} onChange={setCurrentPage}       
                         siblings={0} 
                         boundaries={1}    
