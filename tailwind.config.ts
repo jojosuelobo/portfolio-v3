@@ -17,12 +17,12 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
         "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-        "linear-blue": 'linear-gradient(90deg, #41bbff, #78d5ff);',
+        "linear-red": 'linear-gradient(90deg, #ff3131, #ff6e6e);',
         "linear-gray": "linear-gradient(180deg,#121212,#1a1a1a, #121212)",
         "linear-gray-2": "linear-gradient(0deg,#121212,#262626)",
         "linear-gray-3": "linear-gradient(180deg, rgba(18, 18, 18, 0) 1%, #121212 37%)",
         "linear-light": "linear-gradient(180deg, hsla(0, 0%, 100%, 0%) 54%, #fff 80%)",
-        'linear-button-light': "linear-gradient(90deg, #009bff, #0062ff)",
+        'linear-button-light': "linear-gradient(90deg, #ff3131, #ff6e6e)",
         "linear-footer": "linear-gradient(180deg, #ffffff, #c5d9f9)"
     },
       colors: {

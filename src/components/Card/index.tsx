@@ -26,12 +26,12 @@ export const Card = ({ projetos, ...props }: CardProps) => {
                 />
             </div> */}
 
-            <h1 className="mt-10 dark:text-white text-xl font-medium text-blue-light-400">{projetos?.name}</h1>
+            <h1 className="mt-10 dark:text-white text-xl font-medium text-red-light-400">{projetos?.name}</h1>
             <p className="mt-8 sm:text-base overflow-hidden text-ellipsis sm:line-clamp-4 md:min-h-24">{projetos?.description}</p>
 
-            <p className=" mt-6 dark:text-blue-dark-100 text-blue-light-200">{t('techs')}</p>
+            <p className=" mt-6 dark:text-red-dark-100 text-red-light-200">{t('techs')}</p>
 
-            <div className="mt-4 flex flex-wrap gap-1.5 dark:text-blue-dark-100 text-blue-light-200 items-center">
+            <div className="mt-4 flex flex-wrap gap-1.5 dark:text-red-dark-100 text-red-light-200 items-center">
                 {projetos && projetos?.topics ? (
                     projetos.topics.length === 1 && projetos.topics.includes('portfolio') ? (
                         <span
@@ -55,7 +55,7 @@ export const Card = ({ projetos, ...props }: CardProps) => {
                                 return (
                                     <span
                                         key={index}
-                                        className="text-sm border dark:border-gray-800 bg-[#f0f6ff66] dark:bg-[#060c1452] border-[#2c96df78] rounded-lg py-1 px-2 font-medium capitalize"
+                                        className="text-sm border dark:border-gray-800 bg-[#f0f6ff66] dark:bg-[#060c1452] border-[#ff3131] rounded-lg py-1 px-2 font-medium capitalize"
                                     >
                                         {tag}
                                     </span>

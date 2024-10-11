@@ -33,13 +33,13 @@ export const TabsNav = ({ ...props }: Tabs.TabsProps) => {
         >
           <Tabs.Content value="Software Mind">
             <div className="flex items-center justify-between gap-1 sm:flex-row flex-col sm:mb-8 md:mb-0">
-              <h1 className="font-medium text-xl sm:text-2xl dark:text-gray-dark-400 text-blue-light-100">
+              <h1 className="font-medium text-xl sm:text-2xl dark:text-gray-dark-400 text-red-light-100">
                 {t('SoftwareMindTitle')}
               </h1>
-              <span className="dark:text-gray-dark-400 text-blue-light-100">{t('SoftwareMindData')}</span>
+              <span className="dark:text-gray-dark-400 text-red-light-100">{t('SoftwareMindData')}</span>
             </div>
             <div className='mt-6 mb-8'>
-              <span className="dark:text-blue-dark-100 text-md font-medium text-blue-light-200 mr-1.5">Software Mind</span>
+              <span className="dark:text-red-dark-100 text-md font-medium text-red-light-200 mr-1.5">Software Mind</span>
               <span className='text-xs'>({t('SoftwareMindLocal')} - Texas/{t("SoftwareMindLoc")})</span>
             </div>
             <p>{t('SoftwareMindText')}</p>
@@ -55,13 +55,13 @@ export const TabsNav = ({ ...props }: Tabs.TabsProps) => {
 
           <Tabs.Content value="Octuspay">
             <div className="flex items-center justify-between gap-1 sm:flex-row flex-col sm:mb-8 md:mb-0">
-              <h1 className="font-medium text-xl sm:text-2xl dark:text-gray-dark-400 text-blue-light-100">
+              <h1 className="font-medium text-xl sm:text-2xl dark:text-gray-dark-400 text-red-light-100">
                 {t('OctuspayTitle')}
               </h1>
-              <span className="dark:text-gray-dark-400 text-blue-light-100">{t('OctuspayData')}</span>
+              <span className="dark:text-gray-dark-400 text-red-light-100">{t('OctuspayData')}</span>
             </div>
             <div className='mt-6 mb-8'>
-              <span className="dark:text-blue-dark-100 text-md font-medium text-blue-light-200 mr-1.5">Octuspay</span>
+              <span className="dark:text-red-dark-100 text-md font-medium text-red-light-200 mr-1.5">Octuspay</span>
               <span className='text-xs'>({t('OctuspayLocal')} - Vitória/ES)</span>
             </div>
             <p>{t('OctuspayText')}</p>
@@ -76,13 +76,13 @@ export const TabsNav = ({ ...props }: Tabs.TabsProps) => {
 
           <Tabs.Content value="Etaure">
             <div className="flex items-center justify-between gap-1 sm:flex-row flex-col sm:mb-8 md:mb-0">
-              <h1 className="font-medium text-xl sm:text-2xl dark:text-gray-dark-400 text-blue-light-100">
+              <h1 className="font-medium text-xl sm:text-2xl dark:text-gray-dark-400 text-red-light-100">
                 {t('EtaureTitle')}
               </h1>
-              <span className="dark:text-gray-dark-400 text-blue-light-100">{t('EtaureData')}</span>
+              <span className="dark:text-gray-dark-400 text-red-light-100">{t('EtaureData')}</span>
             </div>
             <div className='mt-6 mb-8'>
-              <span className="dark:text-blue-dark-100 text-md font-medium text-blue-light-200 mr-1.5">Etaure</span>
+              <span className="dark:text-red-dark-100 text-md font-medium text-red-light-200 mr-1.5">Etaure</span>
               <span className='text-xs'>({t('EtaureLocal')} - Vitória/ES)</span>
             </div>
             <p>{t('EtaureText')}</p>
@@ -96,13 +96,13 @@ export const TabsNav = ({ ...props }: Tabs.TabsProps) => {
 
           <Tabs.Content value="Conexos">
             <div className="flex items-center justify-between gap-1 sm:flex-row flex-col sm:mb-8 md:mb-0">
-              <h1 className="font-medium text-xl sm:text-2xl dark:text-gray-dark-400 text-blue-light-100">
+              <h1 className="font-medium text-xl sm:text-2xl dark:text-gray-dark-400 text-red-light-100">
                 {t('ConexosTitle')}
               </h1>
-              <span className="dark:text-gray-dark-400 text-blue-light-100">{t('ConexosData')}</span>
+              <span className="dark:text-gray-dark-400 text-red-light-100">{t('ConexosData')}</span>
             </div>
             <div className='mt-6 mb-8'>
-              <span className="dark:text-blue-dark-100 text-md font-medium text-blue-light-200 mr-1.5">Conexos</span>
+              <span className="dark:text-red-dark-100 text-md font-medium text-red-light-200 mr-1.5">Conexos</span>
               <span className='text-xs'>({t('ConexosLocal')} - Vitória/ES)</span>
             </div>
             <p>{t('ConexosText')}</p>
@@ -116,13 +116,13 @@ export const TabsNav = ({ ...props }: Tabs.TabsProps) => {
 
             <Tabs.Content value="Conexos" className='mt-10'>
               <div className="flex items-center justify-between gap-1 sm:flex-row flex-col sm:mb-8 md:mb-0">
-                <h1 className="font-medium text-xl sm:text-2xl dark:text-gray-dark-400 text-blue-light-100">
+                <h1 className="font-medium text-xl sm:text-2xl dark:text-gray-dark-400 text-red-light-100">
                   Estagiário de {t('ConexosTitle')}
                 </h1>
-                <span className="dark:text-gray-dark-400 text-blue-light-100">Julho 2021 - Setembro 2022</span>
+                <span className="dark:text-gray-dark-400 text-red-light-100">Julho 2021 - Setembro 2022</span>
               </div>
               <div className='mt-6 mb-8'>
-                <span className="dark:text-blue-dark-100 text-md font-medium text-blue-light-200 mr-1.5">Conexos</span>
+                <span className="dark:text-red-dark-100 text-md font-medium text-red-light-200 mr-1.5">Conexos</span>
                 <span className='text-xs'>({t('ConexosLocal')} - Vitória/ES)</span>
               </div>
             </Tabs.Content>

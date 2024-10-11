@@ -45,9 +45,9 @@ export const Header = () => {
     return (
         <header className="w-full fixed top-0 left-0 right-0 dark:bg-gray-dark-100 backdrop-blur-xl z-50 flex items-center min-h-[70px] shadow bg-gray-light-100">
             <nav className="flex items-center justify-between container-personalizado">
-                <Logo className="h-12 w-12 fill-blue-light-200 dark:fill-gray-dark-400 dark:stroke-gray-dark-450" />
+                <Logo className="h-12 w-12 fill-red-light-200 dark:fill-gray-dark-400 dark:stroke-gray-dark-450" />
                 <menu className="flex items-center gap-2 md:gap-8 min-[800px]:gap-10 min-[900px]:gap-14">
-                    <PopoverMenu className="order-2 md:hidden text-dark-light-100 hover:text-blue-light-200 dark:text-gray-dark-450 transition-all" isOpenHambuguer={isOpen} getOpen={setOpen}>
+                    <PopoverMenu className="order-2 md:hidden text-dark-light-100 hover:text-red-light-200 dark:text-gray-dark-450 transition-all" isOpenHambuguer={isOpen} getOpen={setOpen}>
                         <Hamburger size={28} toggled={isOpen} toggle={setOpen} />
                     </PopoverMenu>
 
@@ -58,7 +58,7 @@ export const Header = () => {
                                 return (
                                     <Popover key={item.title} placement="bottom" showArrow={true} isOpen={isOpenPopover} onOpenChange={setOpenPopover}>
                                         <Link
-                                            className={`relative transition-colors cursor-pointer ${activeSection === item.link ? 'dark:text-gray-dark-400 text-blue-light-200' : 'dark:hover:text-gray-dark-400 hover:text-blue-light-200'}`}
+                                            className={`relative transition-colors cursor-pointer ${activeSection === item.link ? 'dark:text-gray-dark-400 text-red-light-200' : 'dark:hover:text-gray-dark-400 hover:text-red-light-200'}`}
                                             to={item.link}
                                             spy={true}
                                             smooth={true}
@@ -66,7 +66,7 @@ export const Header = () => {
                                             onSetActive={setActiveSection}
                                         >
                                             <PopoverTrigger>
-                                                <div className={` aria-expanded:scale-[1] aria-expanded:opacity-100 ${activeSection === item.link ? 'dark:text-gray-dark-400 text-blue-light-200' : 'dark:hover:text-gray-dark-400 hover:text-blue-light-200'}`}>                        {t(item.title)}</div>
+                                                <div className={` aria-expanded:scale-[1] aria-expanded:opacity-100 ${activeSection === item.link ? 'dark:text-gray-dark-400 text-red-light-200' : 'dark:hover:text-gray-dark-400 hover:text-red-light-200'}`}>                        {t(item.title)}</div>
 
 
                                             </PopoverTrigger>
@@ -74,16 +74,16 @@ export const Header = () => {
                                                 <motion.div
                                                     layoutId="activeTab2"
                                                     transition={{ duration: 0.5, delay: 0 }}
-                                                    className="absolute -bottom-6 right-0 left-0 w-full h-0.5 dark:bg-gray-dark-400 bg-blue-light-200"
+                                                    className="absolute -bottom-6 right-0 left-0 w-full h-0.5 dark:bg-gray-dark-400 bg-red-light-200"
                                                 />
                                             )}
                                         </Link>
 
                                         <PopoverContent >
                                             <div className="px-1 py-2 grid gap-2">
-                                                <Rounting.Link target="_blank" href="https://github.com/jojosuelobo?tab=repositories" className="text-base block dark:hover:text-gray-dark-400 hover:text-blue-light-200">{t('allprojects')}</Rounting.Link>
+                                                <Rounting.Link target="_blank" href="https://github.com/jojosuelobo?tab=repositories" className="text-base block dark:hover:text-gray-dark-400 hover:text-red-light-200">{t('allprojects')}</Rounting.Link>
                                                 <Link
-                                                    className={`text-base  transition-colors cursor-pointer ${activeSection === item.link ? 'dark:text-gray-dark-400 text-blue-light-200' : 'dark:hover:text-gray-dark-400 hover:text-blue-light-200'}`}
+                                                    className={`text-base  transition-colors cursor-pointer ${activeSection === item.link ? 'dark:text-gray-dark-400 text-red-light-200' : 'dark:hover:text-gray-dark-400 hover:text-red-light-200'}`}
                                                     to={item.link}
                                                     spy={true}
                                                     smooth={true}
@@ -101,7 +101,7 @@ export const Header = () => {
                             return (
                                 <li key={item.title}>
                                     <Link
-                                        className={`relative transition-colors cursor-pointer ${activeSection === item.link ? 'dark:text-gray-dark-400 text-blue-light-200' : 'dark:hover:text-gray-dark-400 hover:text-blue-light-200'}`}
+                                        className={`relative transition-colors cursor-pointer ${activeSection === item.link ? 'dark:text-gray-dark-400 text-red-light-200' : 'dark:hover:text-gray-dark-400 hover:text-red-light-200'}`}
                                         to={item.link}
                                         spy={true}
                                         smooth={true}
@@ -113,7 +113,7 @@ export const Header = () => {
                                             <motion.div
                                                 layoutId="activeTab2"
                                                 transition={{ duration: 0.5, delay: 0 }}
-                                                className="absolute -bottom-6 right-0 left-0 w-full h-0.5 dark:bg-gray-dark-400 bg-blue-light-200"
+                                                className="absolute -bottom-6 right-0 left-0 w-full h-0.5 dark:bg-gray-dark-400 bg-red-light-200"
                                             />
                                         )}
                                     </Link>
