@@ -40,13 +40,16 @@ export const TabsNav = ({ ...props }: Tabs.TabsProps) => {
             </div>
             <div className='mt-6 mb-8'>
               <span className="dark:text-blue-dark-100 text-md font-medium text-blue-light-200 mr-1.5">Software Mind</span>
-              <span className='text-xs'>({t('SoftwareMindLocal')} - Texas/EUA)</span>
+              <span className='text-xs'>({t('SoftwareMindLocal')} - Texas/{t("SoftwareMindLoc")})</span>
             </div>
             <p>{t('SoftwareMindText')}</p>
             <ul className="list-disc list-inside">
               <li>{t("SoftwareMindLi")}</li>
               <li>{t("SoftwareMindLi2")}</li>
               <li>{t("SoftwareMindLi3")}</li>
+              <li>{t("SoftwareMindLi4")}</li>
+              <li>{t("SoftwareMindLi5")}</li>
+              <li>{t("SoftwareMindLi6")}</li>
             </ul>
           </Tabs.Content>
 
