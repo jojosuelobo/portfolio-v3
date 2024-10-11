@@ -46,7 +46,7 @@ export const PopoverMenu = forwardRef<HTMLButtonElement, PopoverProps>(
                   return (
                     <PopoverNext.Popover key={item.title} placement="left" showArrow={true}>
                       <Link
-                        className={`relative transition-colors cursor-pointer ${activeSection === item.link ? 'dark:text-gray-dark-400 text-blue-light-200' : 'dark:hover:text-gray-dark-400 hover:text-blue-light-200'}`}
+                        className={`relative transition-colors cursor-pointer ${activeSection === item.link ? 'dark:text-gray-dark-400 text-red-light-200' : 'dark:hover:text-gray-dark-400 hover:text-red-light-200'}`}
                         to={item.link}
                         spy={true}
                         smooth={true}
@@ -54,7 +54,7 @@ export const PopoverMenu = forwardRef<HTMLButtonElement, PopoverProps>(
                         onSetActive={setActiveSection}
                       >
                         <PopoverNext.PopoverTrigger>
-                          <div className={` block relative transition-colors cursor-pointer py-2 px-4 text-lg aria-expanded:scale-[1] aria-expanded:opacity-100 ${activeSection === item.link ? 'dark:text-gray-dark-400 text-blue-light-200' : 'dark:hover:text-gray-dark-400 hover:text-blue-light-200'}`}>                        {t(item.title)}</div>
+                          <div className={` block relative transition-colors cursor-pointer py-2 px-4 text-lg aria-expanded:scale-[1] aria-expanded:opacity-100 ${activeSection === item.link ? 'dark:text-gray-dark-400 text-red-light-200' : 'dark:hover:text-gray-dark-400 hover:text-red-light-200'}`}>                        {t(item.title)}</div>
 
 
                         </PopoverNext.PopoverTrigger>
@@ -63,9 +63,9 @@ export const PopoverMenu = forwardRef<HTMLButtonElement, PopoverProps>(
 
                       <PopoverNext.PopoverContent>
                         <div className="px-1 py-2 grid gap-2">
-                          <Rounting.Link href="/projetos" className="text-base block dark:hover:text-gray-dark-400 hover:text-blue-light-200">{t('allprojects')}</Rounting.Link>
+                          <Rounting.Link href="/projetos" className="text-base block dark:hover:text-gray-dark-400 hover:text-red-light-200">{t('allprojects')}</Rounting.Link>
                           <Link
-                            className={`text-base transition-colors cursor-pointer ${activeSection === item.link ? 'dark:text-gray-dark-400 text-blue-light-200' : 'dark:hover:text-gray-dark-400 hover:text-blue-light-200'}`}
+                            className={`text-base transition-colors cursor-pointer ${activeSection === item.link ? 'dark:text-gray-dark-400 text-red-light-200' : 'dark:hover:text-gray-dark-400 hover:text-red-light-200'}`}
                             to={item.link}
                             spy={true}
                             smooth={true}
@@ -82,7 +82,7 @@ export const PopoverMenu = forwardRef<HTMLButtonElement, PopoverProps>(
                   )
                 }
                 return (
-                  <li key={item.title}><Link activeClass="active" className={`block relative transition-colors cursor-pointer py-2 px-4 text-lg ${activeSection === item.link ? 'dark:text-gray-dark-400 text-blue-light-200' : 'dark:hover:text-gray-dark-400 hover:text-blue-light-200'}`} onSetActive={setActiveSection} to={item.link} onClick={() => getOpen(false)} spy={true} smooth={true} duration={500}>{t(item.title)}</Link></li>
+                  <li key={item.title}><Link activeClass="active" className={`block relative transition-colors cursor-pointer py-2 px-4 text-lg ${activeSection === item.link ? 'dark:text-gray-dark-400 text-red-light-200' : 'dark:hover:text-gray-dark-400 hover:text-red-light-200'}`} onSetActive={setActiveSection} to={item.link} onClick={() => getOpen(false)} spy={true} smooth={true} duration={500}>{t(item.title)}</Link></li>
                 )
               })}
             </ul>

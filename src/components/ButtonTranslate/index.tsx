@@ -19,7 +19,7 @@ export function ButtonTranslate() {
             <img
                 key={locale}
                 src={`/country/${locale}.svg`}
-                className={`h-7 min-w-7 cursor-pointer p-0.5 ${locale === params.locale ? 'border dark:border-gray-dark-450 border-blue-light-200' : ''}`}
+                className={`h-7 min-w-7 cursor-pointer p-0.5 ${locale === params.locale ? 'border dark:border-gray-dark-450 border-red-light-200' : ''}`}
                 alt={`Flag of ${locale}`}
                 onClick={() => onSelectChange(locale)}
                 aria-label={`Switch to ${locale}`}
