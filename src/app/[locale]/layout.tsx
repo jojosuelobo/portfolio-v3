@@ -11,7 +11,7 @@ const Sofia = Sofia_Sans({ subsets: ['latin'], weight: ['1', '100', '1000', '200
 
 export const metadata: Metadata = {
   title: "Portfolio - Josué Lobo",
-  description: "Versão 3.0",
+  description: "Testes e Qualidade de Software",
 };
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({locale}));

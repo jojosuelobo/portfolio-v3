@@ -81,7 +81,7 @@ export default function AllProjetos() {
     return (
         <main className="bg-white text-red-light-100 dark:bg-gray-dark-500 dark:text-gray-dark-300 min-h-screen">
             <section className="py-16 container-personalizado">
-                <h1 className="text-center text-3xl mb-8 text-red-light-400 dark:text-gray-dark-400 font-extrabold">
+                <h1 className="text-center text-3xl mb-8 text-blue-light-400 dark:text-gray-dark-400 font-extrabold">
                     {t("h1")}
                 </h1>
 
